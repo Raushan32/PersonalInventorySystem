@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Income</title>
+        <link rel="stylesheet" type="text/css" href="Income.css">
+    </head>
+    <body class="body">
+        <form action="addIncome">
+        <div id="box1">
+            <div id="box2">
+                <h1 class="personal">Personal</h1>
+                <h1 class="inventory"><font color="white">Inventory</font>System</h1>
+            </div>
+            <div id="box3">
+
+
+                <table id="href">
+                     <tr>
+                        <td><a href="#">Home</a>&nbsp&nbsp
+                            <a href="viewprofile.html">Profile </a>&nbsp&nbsp
+                            <a href="updateprofile.html">Update Profile</a>&nbsp&nbsp
+                            <a href="#">Logout</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+        <div id="box4">
+            <div id="box5">
+                <table id="mast">
+                    <tr>
+                        <td>Master</td>
+                    </tr>
+                </table>
+                <table id="master">
+                    <tr>
+                        <td><a href="#">Expenses Category</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="IncomeCategory.html">Income Category</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Expenses.html">Expenses </a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Income.html">Income</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="CashBook.html">Cash Book</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="BankBook.html">Bank Book</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="DayBook.html">Day Book</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="BalanceSheet.html">Balance Sheet</a></td>
+                    </tr>
+                </table>
+
+            </div>
+            <div id="box6">
+                <table id="BalanceSheet">
+                    <tr>
+                        <td>In<font color="Gray">come</font>  </td>
+                    </tr>
+                </table>
+                <table id="table1">
+                    <tr>
+                        <td id="text">
+                            Income :
+                        </td>
+                        <td>
+                            <input type="text" placeholder="bill/ticket/stationaty" name="income">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="text" >
+                            Category :
+                        </td>
+                        <td>
+                            <select name="cat">
+                                <option name="cat">Home</option>
+                                <option name="cat">Home</option>
+                                <option name="cat">Home</option>
+                                <option name="cat">Home</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="text">Amount :</td>
+                        <td><input type="text" name="amount"></td>
+                    </tr>
+                    <tr>
+                        <td id="text">Receive By</td>
+                        <td>
+                            <select name="receive">
+                                <option name="receive"> Cash</option>
+                                <option name="receive">Cheque</option>
+                                <option name="receive">Fund Transfer</option>
+                                <option name="receive">DD</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr id="text">
+                        <td>Date </td>
+                        <td><input type="text" name="date"> </td>
+                    </tr>
+                    <tr id="text">
+                        <td>Remark </td>
+                        <td><input type="text" name="remark"></td>
+                    </tr>
+                    <tr>
+                        <td><button>Add Income</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+            </form>
+    </body>
+</html>
